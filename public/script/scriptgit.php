@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
 
 $repo = 'C:\\wamp64\\www\\sfp_per1'; 
