@@ -18,6 +18,7 @@
       <p>Choisir une page ci-dessous :</p>
     </header>
         <div class="links">
+       <a href="../script/scriptgit.php">Git</a>
        <!-- Lien vers une page développeurs -->
        <a href="../pages/angel.php">Angel</a>
        <a href="../pages/moninn.php">Moninn</a>

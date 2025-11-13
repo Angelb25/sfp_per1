@@ -4,7 +4,7 @@
 $host = 'localhost';
 $db   = 'sfp1';
 $user = 'postgres';
-$pass = 'Enzo.2508';
+$pass = 'test';
 $port = 5432;
 
 // Connexion PostgreSQL

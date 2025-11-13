@@ -6,7 +6,7 @@ $source = 'C:\\wamp64\\www\\sfp_per1\\img.jpeg';
 // Chemin relatif depuis le script vers le dossier de destination
 $dest = __DIR__ . '\\..\\public\\photo\\angelimdg.jpeg';
 
-// Lit le fichier source
+// Lire le fichier source
 $data = file_get_contents($source);
 if ($data === false) {
     die("Erreur : impossible de lire le fichier source $source\n");
