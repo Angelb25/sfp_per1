@@ -6,7 +6,7 @@
 $source = dirname(__DIR__, 3) . '\\sfp_per1\\img.jpeg';
 
 // Chemin relatif vers le fichier de destination
-$dest = dirname(__DIR__, 2) . '\\..\\..\\public\\photo\\imgtest.jpeg';
+$dest = dirname(__DIR__, 2) . '\\public\\photo\\imgtest.jpeg';
 
 // Lire le fichier source
 $data = file_get_contents($source);
