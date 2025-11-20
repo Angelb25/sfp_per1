@@ -3,10 +3,10 @@
 // script angel
 
 // Chemin relatif vers le fichier source
-$source = __DIR__ . '\\..\\..\\..\\sfp_per1\\img.jpeg';
+$source = dirname(__DIR__, 3) . '\\sfp_per1\\img.jpeg';
 
 // Chemin relatif vers le fichier de destination
-$dest = __DIR__ . '\\..\\..\\public\\photo\\imgtest.jpeg';
+$dest = dirname(__DIR__, 2) . '\\..\\..\\public\\photo\\imgtest.jpeg';
 
 // Lire le fichier source
 $data = file_get_contents($source);
