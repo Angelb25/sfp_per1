@@ -4,7 +4,7 @@
 $host = 'localhost';
 $db   = 'sfp1';
 $user = 'postgres';
-$pass = 'test';
+$pass = 'Enzo.2508';
 $port = 5432;
 
 // Connexion PostgreSQL
@@ -36,8 +36,8 @@ if (!$result) {
     echo "Table vérifiée/créée.\n";
 }
 
-$nom = 'Pierre';
-$email = 'p@example.com';
+$nom = 'Toto';
+$email = 'toto@example.com';
 
 $insert_query = "INSERT INTO utilisateurs (nom, email) VALUES ($1, $2)";
 $result = pg_query_params($connect, $insert_query, [$nom, $email]);
